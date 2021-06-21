@@ -1,0 +1,8 @@
+canvas {
+    border: 4px solid #000000;
+    /* margin: 100px; */
+}
+
+button[name="restart"] {
+    display: block;
+}

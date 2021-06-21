@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title><%= htmlWebpackPlugin.options.title %></title>
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+    </head>
+    <body>
+        <canvas id="myCanvas" width="640" height="480">
+            Your browser does not support the canvas element.
+        </canvas>
+        <button name="restart" onclick="undoState()">Restart</button>
+        <input type="number" id="inputBox" value="4" min="2" max="6"></input>
+        <button name="setDims" onclick="changeBoard()">Set size</button>
+    </body>
+</html>
